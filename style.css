@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One|Ubuntu');
 .english-form {
   background-color: hsl(0, 0%, 97%);
   margin: 5px;
@@ -11,14 +12,33 @@ input {
   border: none;
   border-bottom: 3px solid #672d92;
   min-width: 300px;
+  font-family: Ubuntu, sans-serif;
+}
+
+.btn {
+  margin-top: 2px;
+  font-size: 25px;
+  font-family: Ubuntu, sans-serif;
+  background-color: #8e92ab;
+  box-shadow: inset 0px -1px 0px 6px #63505073;
 }
 
 .pigLatin-output {
   font-size: 2rem;
   margin: 5px;
-  background-color: pink;
+  background-color: #e2b2ba47;
   height: 700px;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 1px 4px 25px -5px black;
+  font-family: Ubuntu, sans-serif;
+}
+
+h1 {
+  font-family: "Russo One", sans-serif;
+}
+
+h3 {
+  font-family: "Russo One", sans-serif;
+  font-weight: normal;
 }

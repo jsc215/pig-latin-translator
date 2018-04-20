@@ -23,7 +23,6 @@ const translateToPigLatin = (english) => {
         );
       }
     };
-
     if (consonantMatches !== null) {
       consistentCases(consonantMatches);
       origWord = consonantMatches[1];
