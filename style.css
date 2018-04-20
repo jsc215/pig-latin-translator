@@ -23,6 +23,10 @@ input {
   box-shadow: inset 0px -1px 0px 6px #63505073;
 }
 
+.btn:hover {
+  background-color: #677584;
+}
+
 .pigLatin-output {
   font-size: 2rem;
   margin: 5px;
